@@ -16,4 +16,8 @@ public class FeedbackAppApplication {
 	public String giveFeedback() {
 		return "Welcome to Feedback Section";
 	}
+	@GetMapping("/receiveFeedback")
+	public String receiveFeedback() {
+		return "Here is the feedback for you";
+	}
 }
